@@ -1,0 +1,63 @@
+body
+ {
+    font-family:cursive;
+    font-size:100%;
+}
+/*---header---*/
+header  {
+  background-color:#E66900;
+  font-family: sans-serif;
+
+}
+/*---end header---*/
+
+.bouton
+{
+  float:right;
+  margin-right: 80px;
+  text-align-last:right;
+  color:white;
+  display:inline-block;
+}
+
+a:hover{
+  color:white;
+}
+
+ul {
+  list-style-type: none;
+  font-weight:bolder;
+text-align: inherit;
+}
+
+
+
+
+
+
+
+
+.gauche
+ {
+
+  margin-left:0px;
+  text-align: left;
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.gauche aside, section
+{
+  display: inline-block;
+  vertical-align: top;
+}
+.droite
+{
+  margin-left: 50px;
+padding-bottom: 50px;
+ text-align: right;
+ width: 30%;
+ display: inline-block;
+ vertical-align: top;
+}
